@@ -14,8 +14,7 @@ gerado pelo programa principal.
 
 Com [uv](https://docs.astral.sh/uv/):
 ```bash
-uv venv
-uv pip install -r requirements.txt
+uv sync 
 ```
 
 Ou com pip tradicional:
@@ -100,7 +99,6 @@ Adicione uma linha (roda todo dia às 9h, ajuste o horário como quiser):
 .
 ├── zip_main.py          # programa principal (GUI)
 ├── background_zip.py            # script de segundo plano
-├── requirements.txt
 ├── config.json                 # gerado pelo programa principal no primeiro uso
 ├── backup_contador_dias.txt    # gerado pelo daemon (contador de dias)
 └── backup_log.txt              # gerado pelo daemon (histórico do que ele fez)
