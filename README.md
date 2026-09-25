@@ -1,5 +1,6 @@
 # Compactador de Pastas em ZIP
-![image](https://github.com/FernandoAAB/Backup/blob/main/Diagram.png)
+![image](https://github.com/FernandoAAB/Backup/blob/main/Doc/Diagram.png)
+
 
 Duas partes que trabalham juntas, compartilhando o mesmo `config.json`:
 
