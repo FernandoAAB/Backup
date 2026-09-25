@@ -141,6 +141,11 @@ def construir_janela():
     janela.title("Compactador de Pastas em ZIP")
     janela.geometry("600x680")
     janela.minsize(600, 680)
+    try:
+        janela.iconbitmap("banco.ico")
+    except Exception as e:
+        print(f"Não foi possível carregar o ícone: {e}")
+        
     janela.grid_columnconfigure(0, weight=1)
     janela.grid_rowconfigure(2, weight=1)
     janela.grid_rowconfigure(3, weight=1)
